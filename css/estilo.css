@@ -59,7 +59,7 @@ body * {
     font-size: 40pt;
 }
 
-.line1{
+.line{
     margin-bottom: 32px;
 }
 
@@ -69,7 +69,7 @@ body * {
 }
 
 .col1 > input{
-    width: 220px;
+    width: 280px;
     height: 56px;
     border: none;
     border-radius: 30px;
@@ -85,13 +85,13 @@ body * {
 
 
 .col2 > input{
-    width: 220px;
+    width: 280px;
     height: 56px;
     border: none;
     border-radius: 30px;
     padding: 15px;
     background: #514869;
-    color: #f0ffffde;
+    color: #f0ffff;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
@@ -101,8 +101,7 @@ body * {
 
 .col1 > input::placeholder{
     color: #f0ffff;
-    text-align: center;
-    opacity: 0.3;   
+    text-align: center; 
 }
 
 .col1 > label{
@@ -118,8 +117,8 @@ body * {
 }
 
 .col2 > input{
-    color: #ffffff;
-    text-align: center;   
+    color: #f0ffff;
+    text-align: center;     
 }
 
 .col2 > label{
@@ -129,9 +128,6 @@ body * {
     margin-bottom: 8px;
 }
 
-.col2 > input{
-    color: #201B2C;
-}
 
 .btn-cad{
     margin-top: 24px;
