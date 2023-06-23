@@ -7,11 +7,10 @@
 }
 
 body * {
-
     box-sizing: border-box;
 }
 
-.login{
+.cad{
     width: 100vw;
     height: 100vh;
     background-color: rgb(32, 27, 44);
@@ -20,7 +19,7 @@ body * {
     align-items: center;
 }
 
-.left-login{
+.left-cad{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -29,15 +28,16 @@ body * {
     flex-direction: column;
 }
 
-.left-login > h1{
-    color: #77ffc0;
+.left-cad > h1{
+    font-size: 48pt;
+    color: #FFFFFF;
 }
 
-.left-img-login{
-    width: 35vw;
+.left-img-cad{
+    width: 25vw;
 }
 
-.right-login{
+.right-cad{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -46,7 +46,7 @@ body * {
     flex-direction: column;
 }
 
-.card-login{
+.card-cad{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@ body * {
     border-radius: 20px;
 }
 
-.card-login > h1{
+.card-cad > h1{
     color: #00ff88;
     margin-bottom: 48px;
     font-size: 40pt;
@@ -70,6 +70,7 @@ body * {
     flex-direction: column;
     margin-bottom: 32px;
 }
+
 
 .textfield > input{
     width: 440px;
@@ -87,20 +88,18 @@ body * {
 }
 
 .textfield > input::placeholder{
-    color: #f0ffffde;
+    color: #f0ffff;
     text-align: center;
     opacity: 0.3;   
 }
 
-.linha{
-  content: "";
-  display: inline-block;
-  border-top: 1px solid white;
-  margin-top: 32px;
-  width: 440px;
+.textfield > label{
+    color: #08F185;
+    font-weight: 800;
+    margin-bottom: 8px;
 }
 
-.btn-login{
+.btn-cad{
     margin-top: 24px;
     width: 440px;
     height: 56px;
@@ -113,37 +112,14 @@ body * {
     cursor: pointer;
 }
 
-.btn-login:hover{
+.btn-cad:hover{
     opacity: 0.9;
 }
 
-
-.btn-cadastro{
-    margin-top: 24px;
-    width: 440px;
-    height: 56px;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    font-weight: 800;
-    color: #2b134b;
-    background: #72ffbd;
-    cursor: pointer;
-}
-
-.btn-cadastro:hover{
-    opacity: 0.9;
-}
-
-#info-cadastro{
-    margin-top: 32px;
-    width: 440px;
-    color: white;
-}
 
 @media only screen and (max-width: 1450px){
     
-    .card-login{
+    .card-cad{
         width: 95%;
     }
 
@@ -152,25 +128,25 @@ body * {
 @media only screen and (max-width: 950px){
     
     
-    .login{
+    .cad{
         flex-direction: column;
     }
 
-    .left-login{
+    .left-cad{
         width: 100%;
         height: auto;
     }
 
-    .left-img-login{
+    .left-img-cad{
         width: 50vw;
     }
 
-    .right-login{
+    .right-cad{
         width: 100%;
         height: auto;
     }
 
-    .card-login{
+    .card-cad{
         width: 90%;
     }
 
@@ -178,11 +154,11 @@ body * {
 
 @media only screen and (max-width: 600px){
     
-    .card-login{
+    .card-cad{
         width: 90%;
     }
 
-    .card-login > h1{
+    .card-cad > h1{
         font-size: 32pt;
     }
 }
