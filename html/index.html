@@ -46,19 +46,44 @@
 
                         <div class="col2">
                             <label for="combo">Genero</label>
-                            <select name="combo">
-                                <option value="masculino">Masculino</option>
-                                <option value="feminino">Feminino</option>
-                                <option value="outro">Outro</option>
-                            </select>
+                            <div id="combo-fundo">
+                                <select name="combo" id="combo">
+                                    <option value="masculino">Masculino</option>
+                                    <option value="feminino">Feminino</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
                         </div>
 
                 </div>
 
                 <div class="line">
-                    
+
+                    <div class="col1">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" placeholder="Usuário">
+                    </div>
+
                 </div>
         
+                <div class="line">
+
+                    <div class="col1">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+
+                    <div class="col2">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Confirme sua senha">
+                    </div>
+
+                    <div id="button">
+                        <button type="submit" class="btn-cad">Cadastrar</button>
+                    </div>
+
+                </div>
+
             </div>
             
         </div>
