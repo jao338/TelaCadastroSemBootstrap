@@ -29,7 +29,7 @@ body * {
 }
 
 .left-cad > h1{
-    font-size: 48pt;
+    font-size: 40pt;
     color: #FFFFFF;
 }
 
@@ -43,15 +43,10 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
 }
 
 .card-cad{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     padding: 30px 35px;
     background-color: #2f2841;
     border-radius: 20px;
@@ -64,16 +59,19 @@ body * {
 }
 
 .textfield{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
     margin-bottom: 32px;
 }
 
+.line1{
+    display: inline-block;
+}
 
-.textfield > input{
-    width: 440px;
+.line2{
+    display: inline-block;
+}
+
+.line1 > input{
+    width: 220px;
     height: 56px;
     border: none;
     border-radius: 30px;
@@ -87,13 +85,33 @@ body * {
     text-align: center;
 }
 
-.textfield > input::placeholder{
+.line1 > input::placeholder{
     color: #f0ffff;
     text-align: center;
     opacity: 0.3;   
 }
 
-.textfield > label{
+.line2 > input{
+    color: #ffffff;
+    text-align: center;   
+}
+
+.line1 > input{
+    display: block;
+}
+
+.line2 > input{
+    display: block;
+    color: #201B2C;
+}
+
+.line1 > label{
+    color: #08F185;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.line2 > label{
     color: #08F185;
     font-weight: 800;
     margin-bottom: 8px;
