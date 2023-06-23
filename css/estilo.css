@@ -43,7 +43,6 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .card-cad{
@@ -53,24 +52,23 @@ body * {
 }
 
 .card-cad > h1{
+    display: flex;
+    justify-content: center;
     color: #00ff88;
     margin-bottom: 48px;
     font-size: 40pt;
 }
 
-.textfield{
+.line1{
     margin-bottom: 32px;
 }
 
-.line1{
+.col1{
+    margin-right: 56px;
     display: inline-block;
 }
 
-.line2{
-    display: inline-block;
-}
-
-.line1 > input{
+.col1 > input{
     width: 220px;
     height: 56px;
     border: none;
@@ -85,36 +83,54 @@ body * {
     text-align: center;
 }
 
-.line1 > input::placeholder{
+
+.col2 > input{
+    width: 220px;
+    height: 56px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.col1 > input::placeholder{
     color: #f0ffff;
     text-align: center;
     opacity: 0.3;   
 }
 
-.line2 > input{
+.col1 > label{
+    display: block;
+    color: #08F185;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.col2{
+    display: inline-block;
+    
+}
+
+.col2 > input{
     color: #ffffff;
     text-align: center;   
 }
 
-.line1 > input{
+.col2 > label{
     display: block;
+    color: #08F185;
+    font-weight: 800;
+    margin-bottom: 8px;
 }
 
-.line2 > input{
-    display: block;
+.col2 > input{
     color: #201B2C;
-}
-
-.line1 > label{
-    color: #08F185;
-    font-weight: 800;
-    margin-bottom: 8px;
-}
-
-.line2 > label{
-    color: #08F185;
-    font-weight: 800;
-    margin-bottom: 8px;
 }
 
 .btn-cad{
@@ -135,48 +151,10 @@ body * {
 }
 
 
-@media only screen and (max-width: 1450px){
+@media only screen and (max-width: 1110px){
     
-    .card-cad{
+    .line2{
         width: 95%;
     }
 
-}
-
-@media only screen and (max-width: 950px){
-    
-    
-    .cad{
-        flex-direction: column;
-    }
-
-    .left-cad{
-        width: 100%;
-        height: auto;
-    }
-
-    .left-img-cad{
-        width: 50vw;
-    }
-
-    .right-cad{
-        width: 100%;
-        height: auto;
-    }
-
-    .card-cad{
-        width: 90%;
-    }
-
-}
-
-@media only screen and (max-width: 600px){
-    
-    .card-cad{
-        width: 90%;
-    }
-
-    .card-cad > h1{
-        font-size: 32pt;
-    }
 }
