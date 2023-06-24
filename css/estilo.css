@@ -46,7 +46,6 @@ body * {
 }
 
 .card-cad{
-
     padding: 30px 35px;
     background-color: #2f2841;
     border-radius: 20px;
@@ -207,14 +206,127 @@ body * {
 
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1200px){
     
     .right-cad{
-        width: 70vw;
+        width: 100vw;
     }
 
     .left-cad{
-        width: 10vw;
+        width: 0vw;
         opacity: 0.0;
     }
+
+    .card-cad > h1{
+        font-size: 32pt;
+    }
+
+    .col1 > input{
+        width: 180px;
+        font-size: 8pt;
+    }
+
+    .col2 > input{
+        width: 180px;
+        font-size: 8pt;
+    }
+
+    #combo-fundo{
+        width: 180px;
+    }
+
+    #combo{
+        font-size: 8pt;
+        width: 140px;
+    }
+    
 }
+
+@media only screen and (max-width: 550px){
+    
+    .right-cad{
+        width: 100vw;
+    }
+
+    .left-cad{
+        width: 0vw;
+    }
+
+    .card-cad > h1{
+        font-size: 24pt;
+    }
+
+    .col1 > input{
+        width: 140px;
+        height: 32px;
+        font-size: 8pt;
+    }
+
+    .col2 > input{
+        width: 140px;
+        height: 32px;
+        font-size: 8pt;
+    }
+
+    #combo-fundo{
+        width: 140px;
+        height: 32px;
+    }
+
+    #combo{
+        font-size: 8pt;
+        width: 140px;
+        height: 32px;
+    }
+
+    .btn-cad{
+        width: 280px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 430px){
+    
+    .right-cad{
+        width: 100vw;
+    }
+
+    .left-cad{
+        width: 0vw;
+    }
+
+    .col1{
+        margin-right: 16px;
+    }
+
+    .card-cad{
+        padding: 25px 15px;
+    }
+
+    #combo{
+        height: 32px;
+    }
+
+    #combo-fundo{
+        height: 32px;
+    }
+
+    .col1 > input{
+        height: 32px;    
+    }
+
+    .col2 > input{
+        height: 32px;
+    }
+
+    .col1 > label{
+        font-size: 8pt;
+    }
+
+    .col2 > label{
+        font-size: 8pt;
+    }
+
+}
+
